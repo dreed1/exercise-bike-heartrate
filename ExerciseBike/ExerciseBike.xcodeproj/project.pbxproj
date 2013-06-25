@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E828B7C0163794FC000D6104 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E828B7BF163794FC000D6104 /* Cocoa.framework */; };
+		E828B7CA163794FD000D6104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E828B7C8163794FD000D6104 /* InfoPlist.strings */; };
+		E828B7CC163794FD000D6104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E828B7CB163794FD000D6104 /* main.m */; };
+		E828B7D0163794FD000D6104 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E828B7CE163794FD000D6104 /* Credits.rtf */; };
+		E828B7D3163794FD000D6104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E828B7D2163794FD000D6104 /* AppDelegate.m */; };
+		E828B7D6163794FD000D6104 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E828B7D4163794FD000D6104 /* MainMenu.xib */; };
+		E828B7DE163794FD000D6104 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E828B7DD163794FD000D6104 /* SenTestingKit.framework */; };
+		E828B7DF163794FD000D6104 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E828B7BF163794FC000D6104 /* Cocoa.framework */; };
+		E828B7E7163794FD000D6104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E828B7E5163794FD000D6104 /* InfoPlist.strings */; };
+		E828B7EA163794FD000D6104 /* ExerciseBikeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E828B7E9163794FD000D6104 /* ExerciseBikeTests.m */; };
+		E828B7F9163797BB000D6104 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = E828B7F6163797BB000D6104 /* ORSSerialPort.m */; };
+		E828B7FA163797BB000D6104 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E828B7F8163797BB000D6104 /* ORSSerialPortManager.m */; };
+		E828B7FC16379C45000D6104 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E828B7FB16379C45000D6104 /* IOKit.framework */; };
+		E828B8011637A428000D6104 /* ButtonMasher.m in Sources */ = {isa = PBXBuildFile; fileRef = E828B8001637A428000D6104 /* ButtonMasher.m */; };
+		E828B8031637A548000D6104 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E828B8021637A548000D6104 /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E828B7E0163794FD000D6104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E828B7B2163794FC000D6104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E828B7BA163794FC000D6104;
+			remoteInfo = ExerciseBike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E828B7BB163794FC000D6104 /* ExerciseBike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExerciseBike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E828B7BF163794FC000D6104 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E828B7C2163794FD000D6104 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E828B7C3163794FD000D6104 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E828B7C4163794FD000D6104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E828B7C7163794FD000D6104 /* ExerciseBike-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExerciseBike-Info.plist"; sourceTree = "<group>"; };
+		E828B7C9163794FD000D6104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E828B7CB163794FD000D6104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E828B7CD163794FD000D6104 /* ExerciseBike-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExerciseBike-Prefix.pch"; sourceTree = "<group>"; };
+		E828B7CF163794FD000D6104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E828B7D1163794FD000D6104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E828B7D2163794FD000D6104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E828B7D5163794FD000D6104 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E828B7DC163794FD000D6104 /* ExerciseBikeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExerciseBikeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E828B7DD163794FD000D6104 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E828B7E4163794FD000D6104 /* ExerciseBikeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExerciseBikeTests-Info.plist"; sourceTree = "<group>"; };
+		E828B7E6163794FD000D6104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E828B7E8163794FD000D6104 /* ExerciseBikeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExerciseBikeTests.h; sourceTree = "<group>"; };
+		E828B7E9163794FD000D6104 /* ExerciseBikeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseBikeTests.m; sourceTree = "<group>"; };
+		E828B7F5163797BB000D6104 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		E828B7F6163797BB000D6104 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		E828B7F7163797BB000D6104 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		E828B7F8163797BB000D6104 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		E828B7FB16379C45000D6104 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E828B7FF1637A428000D6104 /* ButtonMasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonMasher.h; sourceTree = "<group>"; };
+		E828B8001637A428000D6104 /* ButtonMasher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonMasher.m; sourceTree = "<group>"; };
+		E828B8021637A548000D6104 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E828B7B8163794FC000D6104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E828B8031637A548000D6104 /* ApplicationServices.framework in Frameworks */,
+				E828B7FC16379C45000D6104 /* IOKit.framework in Frameworks */,
+				E828B7C0163794FC000D6104 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E828B7D8163794FD000D6104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E828B7DE163794FD000D6104 /* SenTestingKit.framework in Frameworks */,
+				E828B7DF163794FD000D6104 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E828B7B0163794FC000D6104 = {
+			isa = PBXGroup;
+			children = (
+				E828B8021637A548000D6104 /* ApplicationServices.framework */,
+				E828B7FB16379C45000D6104 /* IOKit.framework */,
+				E828B7F31637977D000D6104 /* Utilities */,
+				E828B7C5163794FD000D6104 /* ExerciseBike */,
+				E828B7E2163794FD000D6104 /* ExerciseBikeTests */,
+				E828B7BE163794FC000D6104 /* Frameworks */,
+				E828B7BC163794FC000D6104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E828B7BC163794FC000D6104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7BB163794FC000D6104 /* ExerciseBike.app */,
+				E828B7DC163794FD000D6104 /* ExerciseBikeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E828B7BE163794FC000D6104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7BF163794FC000D6104 /* Cocoa.framework */,
+				E828B7DD163794FD000D6104 /* SenTestingKit.framework */,
+				E828B7C1163794FC000D6104 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E828B7C1163794FC000D6104 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7C2163794FD000D6104 /* AppKit.framework */,
+				E828B7C3163794FD000D6104 /* CoreData.framework */,
+				E828B7C4163794FD000D6104 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E828B7C5163794FD000D6104 /* ExerciseBike */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7D1163794FD000D6104 /* AppDelegate.h */,
+				E828B7D2163794FD000D6104 /* AppDelegate.m */,
+				E828B7D4163794FD000D6104 /* MainMenu.xib */,
+				E828B7C6163794FD000D6104 /* Supporting Files */,
+			);
+			path = ExerciseBike;
+			sourceTree = "<group>";
+		};
+		E828B7C6163794FD000D6104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7C7163794FD000D6104 /* ExerciseBike-Info.plist */,
+				E828B7C8163794FD000D6104 /* InfoPlist.strings */,
+				E828B7CB163794FD000D6104 /* main.m */,
+				E828B7CD163794FD000D6104 /* ExerciseBike-Prefix.pch */,
+				E828B7CE163794FD000D6104 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E828B7E2163794FD000D6104 /* ExerciseBikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7E8163794FD000D6104 /* ExerciseBikeTests.h */,
+				E828B7E9163794FD000D6104 /* ExerciseBikeTests.m */,
+				E828B7E3163794FD000D6104 /* Supporting Files */,
+			);
+			path = ExerciseBikeTests;
+			sourceTree = "<group>";
+		};
+		E828B7E3163794FD000D6104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7E4163794FD000D6104 /* ExerciseBikeTests-Info.plist */,
+				E828B7E5163794FD000D6104 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E828B7F31637977D000D6104 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7FE1637A40A000D6104 /* Button Masher */,
+				E828B7F416379783000D6104 /* ORSSerialPort */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		E828B7F416379783000D6104 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7F5163797BB000D6104 /* ORSSerialPort.h */,
+				E828B7F6163797BB000D6104 /* ORSSerialPort.m */,
+				E828B7F7163797BB000D6104 /* ORSSerialPortManager.h */,
+				E828B7F8163797BB000D6104 /* ORSSerialPortManager.m */,
+			);
+			name = ORSSerialPort;
+			sourceTree = "<group>";
+		};
+		E828B7FE1637A40A000D6104 /* Button Masher */ = {
+			isa = PBXGroup;
+			children = (
+				E828B7FF1637A428000D6104 /* ButtonMasher.h */,
+				E828B8001637A428000D6104 /* ButtonMasher.m */,
+			);
+			name = "Button Masher";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E828B7BA163794FC000D6104 /* ExerciseBike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E828B7ED163794FD000D6104 /* Build configuration list for PBXNativeTarget "ExerciseBike" */;
+			buildPhases = (
+				E828B7B7163794FC000D6104 /* Sources */,
+				E828B7B8163794FC000D6104 /* Frameworks */,
+				E828B7B9163794FC000D6104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExerciseBike;
+			productName = ExerciseBike;
+			productReference = E828B7BB163794FC000D6104 /* ExerciseBike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E828B7DB163794FD000D6104 /* ExerciseBikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E828B7F0163794FD000D6104 /* Build configuration list for PBXNativeTarget "ExerciseBikeTests" */;
+			buildPhases = (
+				E828B7D7163794FD000D6104 /* Sources */,
+				E828B7D8163794FD000D6104 /* Frameworks */,
+				E828B7D9163794FD000D6104 /* Resources */,
+				E828B7DA163794FD000D6104 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E828B7E1163794FD000D6104 /* PBXTargetDependency */,
+			);
+			name = ExerciseBikeTests;
+			productName = ExerciseBikeTests;
+			productReference = E828B7DC163794FD000D6104 /* ExerciseBikeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E828B7B2163794FC000D6104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E828B7B5163794FC000D6104 /* Build configuration list for PBXProject "ExerciseBike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E828B7B0163794FC000D6104;
+			productRefGroup = E828B7BC163794FC000D6104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E828B7BA163794FC000D6104 /* ExerciseBike */,
+				E828B7DB163794FD000D6104 /* ExerciseBikeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E828B7B9163794FC000D6104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E828B7CA163794FD000D6104 /* InfoPlist.strings in Resources */,
+				E828B7D0163794FD000D6104 /* Credits.rtf in Resources */,
+				E828B7D6163794FD000D6104 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E828B7D9163794FD000D6104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E828B7E7163794FD000D6104 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E828B7DA163794FD000D6104 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E828B7B7163794FC000D6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E828B7CC163794FD000D6104 /* main.m in Sources */,
+				E828B7D3163794FD000D6104 /* AppDelegate.m in Sources */,
+				E828B7F9163797BB000D6104 /* ORSSerialPort.m in Sources */,
+				E828B7FA163797BB000D6104 /* ORSSerialPortManager.m in Sources */,
+				E828B8011637A428000D6104 /* ButtonMasher.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E828B7D7163794FD000D6104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E828B7EA163794FD000D6104 /* ExerciseBikeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E828B7E1163794FD000D6104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E828B7BA163794FC000D6104 /* ExerciseBike */;
+			targetProxy = E828B7E0163794FD000D6104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E828B7C8163794FD000D6104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E828B7C9163794FD000D6104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E828B7CE163794FD000D6104 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E828B7CF163794FD000D6104 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E828B7D4163794FD000D6104 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E828B7D5163794FD000D6104 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E828B7E5163794FD000D6104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E828B7E6163794FD000D6104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E828B7EB163794FD000D6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E828B7EC163794FD000D6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E828B7EE163794FD000D6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExerciseBike/ExerciseBike-Prefix.pch";
+				INFOPLIST_FILE = "ExerciseBike/ExerciseBike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E828B7EF163794FD000D6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExerciseBike/ExerciseBike-Prefix.pch";
+				INFOPLIST_FILE = "ExerciseBike/ExerciseBike-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E828B7F1163794FD000D6104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExerciseBike.app/Contents/MacOS/ExerciseBike";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExerciseBike/ExerciseBike-Prefix.pch";
+				INFOPLIST_FILE = "ExerciseBikeTests/ExerciseBikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E828B7F2163794FD000D6104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExerciseBike.app/Contents/MacOS/ExerciseBike";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExerciseBike/ExerciseBike-Prefix.pch";
+				INFOPLIST_FILE = "ExerciseBikeTests/ExerciseBikeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E828B7B5163794FC000D6104 /* Build configuration list for PBXProject "ExerciseBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E828B7EB163794FD000D6104 /* Debug */,
+				E828B7EC163794FD000D6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E828B7ED163794FD000D6104 /* Build configuration list for PBXNativeTarget "ExerciseBike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E828B7EE163794FD000D6104 /* Debug */,
+				E828B7EF163794FD000D6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E828B7F0163794FD000D6104 /* Build configuration list for PBXNativeTarget "ExerciseBikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E828B7F1163794FD000D6104 /* Debug */,
+				E828B7F2163794FD000D6104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E828B7B2163794FC000D6104 /* Project object */;
+}

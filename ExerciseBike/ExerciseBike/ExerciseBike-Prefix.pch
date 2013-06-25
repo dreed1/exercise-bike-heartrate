@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ExerciseBike' target in the 'ExerciseBike' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
